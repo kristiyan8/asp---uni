@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\packages",
-    "\\WebApplication2"
+    "\\WebApplication2",
+    "\\WebApplication2\\pictures"
   ],
-  "SelectedNode": "\\WebApplication2\\WebApplication2.csproj",
   "PreviewInSolutionExplorer": false
 }
