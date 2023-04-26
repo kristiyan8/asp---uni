@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\packages",
-    "\\WebApplication2"
+    "\\WebApplication2",
+    "\\WebApplication2\\obj"
   ],
-  "SelectedNode": "\\WebApplication2\\WebForm1.aspx",
   "PreviewInSolutionExplorer": false
 }
