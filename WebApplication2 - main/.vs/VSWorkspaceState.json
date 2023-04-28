@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\packages",
-    "\\WebApplication2",
-    "\\WebApplication2\\pictures",
-    "\\WebApplication2\\Properties"
+    "\\WebApplication2"
   ],
-  "SelectedNode": "\\WebApplication2.sln",
+  "SelectedNode": "\\WebApplication2\\pictures",
   "PreviewInSolutionExplorer": false
 }

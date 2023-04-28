@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+<script runat="server">
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+</script>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta charset="utf-8" />    
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server" />
+    <style type="text/css">
+        .auto-style1 {
+            height: 26px;
+        }
+        .auto-style2 {
+            height: 290px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        Страаница новини</div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" >
+            <table style="width:100%;">
+                <tr>
+                    <td>
+                        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                            <Items>
+                                <asp:MenuItem Text="Начало" Value="Начало"></asp:MenuItem>
+                                <asp:MenuItem Text="Новини" Value="Новини"></asp:MenuItem>
+                                <asp:MenuItem Text="Новини" Value="Новини"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2"></td>
+                </tr>
+                <tr>
+                    <td class="auto-style1"></td>
+                </tr>
+            </table>
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

@@ -30,6 +30,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div></div>
     
         <table class="auto-style4">
             <tr>
@@ -37,7 +38,7 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    &nbsp;</td>
+                    <img alt="" src="" /></td>
             </tr>
             <tr>
                 <td class="auto-style1">&nbsp;</td>
