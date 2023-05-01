@@ -76,6 +76,7 @@
                                 <td class="auto-style1"></td>
                                 <td class="auto-style1"></td>
                             </tr>
+                            <asp:Button ID="Button1" runat="server" Text="повече" />
                         </table>
                     </td>
                 </tr>
