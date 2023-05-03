@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta charset="utf-8" />    
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" />
+        <asp:Menu ID="Menu1" runat="server">
+            <Items>
+                <asp:MenuItem Text="повече информация" Value="повече информация">
+                    <asp:MenuItem Text="здравеопазване" Value="New Item"></asp:MenuItem>
+                </asp:MenuItem>
+            </Items>
+        </asp:Menu>
+    </div>
+    </form>
+    <table style="width:100%;">
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</body>
+</html>

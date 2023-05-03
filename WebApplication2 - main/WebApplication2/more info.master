@@ -10,6 +10,10 @@
         .auto-style1 {
             height: 26px;
         }
+        .auto-style2 {
+            width: 632px;
+            height: 290px;
+        }
     </style>
 </head>
 <body>
@@ -72,5 +76,7 @@
             </tr>
         </table>
     </form>
+    <p>
+        <img alt="" class="auto-style2" src="pictures/images.jpg" /></p>
 </body>
 </html>
